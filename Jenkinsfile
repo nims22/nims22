@@ -4,14 +4,14 @@ pipeline{
 			stage("Build"){
 					steps{
 					echo"Building project... Starting..."
-					sudo make build
+
 					echo"Building proj... Ends."
 					}
 			}
 			stage("Run"){
 					steps{
 					echo"Running app... Starting..."
-					//./bin/summation 3 5
+					python3 py_proj/sum.py 3 5
 					echo"Running app... Ends."
 					}
 			}
