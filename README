@@ -1,0 +1,12 @@
+Summatin program in c-language.
+-------------------------------
+
+How to build?
+
+	make build
+
+How to run the prog.?
+	./bin/summation <int-a> <int-b>
+
+How to clean?
+	make clean
