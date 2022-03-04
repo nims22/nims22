@@ -4,7 +4,7 @@ pipeline{
 			stage("Build"){
 					steps{
 					echo"Building project... Starting..."
-					//make build
+					sudo make build
 					echo"Building proj... Ends."
 					}
 			}
