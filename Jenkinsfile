@@ -11,7 +11,7 @@ pipeline{
 			stage("Run"){
 					steps{
 					echo"Running app... Starting..."
-					python3 py_proj/sum.py 3 5
+					//python3 py_proj/sum.py 3 5
 					echo"Running app... Ends."
 					}
 			}
