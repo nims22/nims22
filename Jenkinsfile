@@ -4,7 +4,7 @@ pipeline{
 			stage("Build"){
 					steps{
 					echo"Building project... Starting..."
-					make build
+					//make build
 					echo"Building proj... Ends."
 					}
 			}
@@ -18,7 +18,7 @@ pipeline{
 			stage("Clean"){
 					steps{
 					echo"Clean up... Starting..."
-					make clean
+					//make clean
 					echo"Clean up... Ends."
 					}
 			}
