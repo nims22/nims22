@@ -11,7 +11,7 @@ pipeline{
 			stage("Run"){
 					steps{
 					echo"Running app... Starting..."
-					./bin/summation 3 5
+					//./bin/summation 3 5
 					echo"Running app... Ends."
 					}
 			}
