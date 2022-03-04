@@ -1,5 +1,6 @@
 pipeline{
 	agent any
+		stages{
 			stage("Build"){
 					steps{
 					echo"Building project... Starting..."
@@ -21,4 +22,6 @@ pipeline{
 					echo"Clean up... Ends."
 					}
 			}
+				
+		}
 }
